@@ -182,7 +182,7 @@ export const CartPage: React.FC = () => {
               {`$${cartProducts.reduce((sum, { price, quantity }) => sum + price * quantity, 0)}`}
             </h2>
             <span className="bodyText cartPage__priceBlock--counter">
-              {`Total for ${cartProducts.length} items`}
+              {`Total for ${cartProducts.reduce((accumulator, product) => accumulator + product.quantity, 0)} items`}
             </span>
             <button
               onClick={() => setShowCheckout(true)}
