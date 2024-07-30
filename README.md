@@ -1,6 +1,4 @@
-# 2048 game
-
-## Online Store Portfolio Project
+# Online Store Project
 
 This project is an online store built with React, showcasing a range of features to enhance user experience and functionality. The application includes:
 
